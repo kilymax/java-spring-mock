@@ -8,7 +8,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class RequestDTO {
+public class PostBalancesRequestDTO {
     private String rqUID;
     private String clientId;
     private String account;

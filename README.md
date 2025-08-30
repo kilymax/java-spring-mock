@@ -69,20 +69,23 @@ Simple Java Spring REST mock example
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
+0. Change Java version locally
+   ```sh
+   sudo update-alternatives --config java
+   ```
 1. Run JAR
    ```sh
-      nohup java -jar JavaSpringMock-0.0.1-SNAPSHOT.jar --server.port=8044 -xms1g -xmx2g > JS-8044.log &
+   nohup java -jar JavaSpringMock-0.0.1-SNAPSHOT.jar --server.port=8044 -xms1g -xmx2g > JS-8044.log &
    ```
 2. Request example
    ```sh
-    {
+   {
       "rqUID": "58dgtf565j8547f64ke7",
       "clientId": "3050000000000000000",
       "account": "30500000000000000001",
       "openDate": "2020-01-01",
       "closeDate": "2025-01-01"
-    }
+   }
     ```
 3. Response example
     ```sh
